@@ -2,3 +2,4 @@ requests
 beautifulsoup4
 unidecode
 pandas
+w3lib
