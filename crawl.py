@@ -12,7 +12,7 @@ def convert_productname(product_name):
 def google_search(product_name):
     url = "https://www.google.com/search?q=product+description+of+" + product_name + "&hl=en&gl=sg" # đảm bảo kết quả tìm kiếm là tiếng anh và khu vực singapore
     response = requests.get(url)
-    print(url)
+    #print(url)
     soup = BeautifulSoup(response.text, "html.parser")
 
     # Lưu ra file để xem cấu trúc html
