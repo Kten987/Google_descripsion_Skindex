@@ -42,4 +42,4 @@ if __name__ == "__main__":
     # Left join input and output vì input có duplicate
     in_put = pd.read_csv("Thinh_Assignment.csv")
     results = pd.merge(in_put["productName"], results, on="productName", how="left")
-    results.to_csv("output_5.csv", index=False)
+    results.to_csv("output_6.csv", index=False)
